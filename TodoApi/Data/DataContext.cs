@@ -5,12 +5,11 @@ namespace TodoApi.Data
 {
     public class DataContext : DbContext
     {
-        public DataContext(DbContextOptions options) : base(options)
-        {
-        }
+        public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
         public DbSet<TodoItem> TodoItems { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //Configure the relationship between User and TodoItem
