@@ -5,7 +5,7 @@
     {
         public int Id { get; set; }
         public string Task { get; set; }
-        public string IsDone { get; set; }
+        public bool IsDone { get; set; }
         public DateTime CreatedDate { get; set; }
     }
 }
