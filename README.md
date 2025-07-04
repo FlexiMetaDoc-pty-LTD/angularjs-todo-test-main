@@ -78,5 +78,6 @@ Once you clone or download the test, you have **1 day (24 hours)** to complete a
 Push your work to a **GitHub repository** and share the link. Ensure all commits are meaningful and your code is clean and commented.
 
 ---
+If your Project meets all requirments you can send a invoice of R500 for your time and effort to Sonika.vandyk@fleximetadoc.com
 
 Good luck, and have fun building!
